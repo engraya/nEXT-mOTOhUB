@@ -22,7 +22,7 @@ function NewCarCard({ car }: CarCardProps) {
 
   <div className="my-2">
     <article className="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl">
-        <div className="relative flex items-end rounded-xl">
+        <div className="relative flex items-end  max-w-screen-xl rounded-xl">
           <Image src={CarImage} height={500} width={500} alt="car" className='rounded'/>
           <div className="absolute bottom-3 left-3 inline-flex items-center rounded-lg bg-white p-2 shadow-md">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-400" viewBox="0 0 20 20" fill="currentColor">

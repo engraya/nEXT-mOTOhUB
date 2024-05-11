@@ -40,7 +40,7 @@ export default async function page({ searchParams }: HomeProps) {
         </div>
         {!isDataEmpty ? (
           <div>
-            <div className='mx-auto grid max-w-screen-xl grid-cols-4 gap-6 p-4 md:grid-cols-3 lg:grid-cols-3'>
+            <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-6 p-6 md:grid-cols-3 lg:grid-cols-4'>
               {allCars?.map((car) => (
                 <CarCard car={car} key={car}/>
               ))}
