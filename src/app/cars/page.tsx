@@ -39,7 +39,7 @@ export default async function page({ searchParams }: HomeProps) {
  
         </div>
         {!isDataEmpty ? (
-          <section>
+          <div>
             <div className='mx-auto grid max-w-screen-xl grid-cols-4 gap-6 p-4 md:grid-cols-3 lg:grid-cols-3'>
               {allCars?.map((car) => (
                 <CarCard car={car} key={car}/>
@@ -50,7 +50,7 @@ export default async function page({ searchParams }: HomeProps) {
               pageNumber={(searchParams.limit || 10) / 10}
               isNext={(searchParams.limit || 10) > allCars.length}
             />
-          </section>
+          </div>
         ) : (
           <div className='home__error-container'>
             <h2 className='text-black text-xl font-bold'>No Car Results Found....Try again</h2>
