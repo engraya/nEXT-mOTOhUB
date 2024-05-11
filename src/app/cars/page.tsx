@@ -6,7 +6,7 @@ import { fuels, yearsOfProduction } from '@constatnts'
 import { HomeProps } from '@types'
 import { fetchCars } from '@utils'
 import ShowMore from '@components/ShowMore'
-import NewCarCard from '@components/NewCarCard'
+import CarCard from '@components/CarCard'
 export default async function page({ searchParams }: HomeProps) {
 
     const allCars = await fetchCars({
@@ -40,9 +40,9 @@ export default async function page({ searchParams }: HomeProps) {
         </div>
         {!isDataEmpty ? (
           <section>
-            <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-6 p-6 md:grid-cols-2 lg:grid-cols-3'>
+            <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-6 p-4 md:grid-cols-3 lg:grid-cols-3'>
               {allCars?.map((car) => (
-                <NewCarCard car={car} />
+                <CarCard car={car} key={car}/>
               ))}
             </div>
 
