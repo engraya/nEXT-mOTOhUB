@@ -32,7 +32,7 @@ function LandingPageComponent() {
             </span>
         </h2>
         <p className="text-base text-gray-100 md:text-lg">
-        At MotoHub, we're not just about cars; we're about igniting your passion for driving. Our curated collection blends timeless classics with cutting-edge innovation, ensuring that every journey is an exhilarating experience. With a commitment to excellence and a team of passionate enthusiasts, MotoHub is your destination for automotive inspiration. From exploring our meticulously crafted fleet to experiencing expert services, we're here to elevate your driving experience to new heights.
+        At MotoHub, we are not just about cars; we are about igniting your passion for driving. Our curated collection blends timeless classics with cutting-edge innovation, ensuring that every journey is an exhilarating experience. With a commitment to excellence and a team of passionate enthusiasts, MotoHub is your destination for automotive inspiration. From exploring our meticulously crafted fleet to experiencing expert services, we are here to elevate your driving experience to new heights.
         </p>
       </div>
       <div className="flex items-center">
@@ -98,7 +98,7 @@ function LandingPageComponent() {
   <div className="mx-auto max-w-7xl px-4 sm:px-6 md:flex lg:px-8">
     <div className="relative mx-auto my-auto flex flex-col items-center text-center">
       <h2 className="leading-tight lg:text-6xl bg-teal-accent-400 mb-2 inline-block rounded-full px-3 py-1 uppercase tracking-wider text-indigo-900 bg-gradient-to-r from-pink-500 to-green-500 bg-clip-text text-4xl font-extrabold text-transparent sm:text-6xl"> Stay Updated with Latest Trends and News<span className="whitespace-nowrap"></span></h2>
-      <p className="mt-4 font-medium md:text-xl">Let's Start Your Motoub Journey Today</p>
+      <p className="mt-4 font-medium md:text-xl">Let&apos;s free Start Your Motoub Journey Today</p>
       <div className="sm mt-8 flex flex-col sm:flex-row sm:space-x-4 sm:px-0 lg:mt-12">
         <Link href={carsPhotos} target='_blank'>
         <button className="relative mt-4 rounded-lg bg-orange-500 px-6 py-2 font-medium text-white shadow transition hover:bg-orange-600">
