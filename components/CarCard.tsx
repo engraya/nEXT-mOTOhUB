@@ -19,7 +19,7 @@ function NewCarCard({ car }: CarCardProps) {
   const { year, make, model, drive, fuel_type, cylinders, highway_mpg, transmission } = car;
   return (
 
-  <div className="my-2 w-full">
+  <div className="my-2">
     <div className="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl">
         <div className="relative flex items-end  max-w-screen-xl rounded-xl">
           <Image src={CarImage} height={500} width={500} alt="car" className='w-full rounded'/>
