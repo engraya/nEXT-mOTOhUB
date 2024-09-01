@@ -3,9 +3,9 @@ import Link from "next/link";
 import footerCar from "@public/navCar.svg"
 const Footer = () => (
   <>
-    <footer className="relative mt-20 bg-gray-900 px-4 pt-20">
+    <footer className="relative mt-20 bg-gray-900 px-4 pt-10">
       <div className="absolute -top-10 left-1/2 h-16 w-16 -translate-x-1/2 rounded-xl border-4 border-sky-500 bg-white p-2"><Image className="h-full object-contain" src={footerCar} alt="" /></div>
-      <nav aria-label="Footer Navigation" className="mx-auto mb-10 flex max-w-lg flex-col gap-10 text-center sm:flex-row sm:text-left">
+      <nav aria-label="Footer Navigation" className="mx-auto mb-8 flex max-w-lg flex-col gap-10 text-center sm:flex-row sm:text-left">
         <Link href="/">
         <div className="font-medium text-white">Home</div>
         </Link>
